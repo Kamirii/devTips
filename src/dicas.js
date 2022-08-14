@@ -7,8 +7,8 @@ create para salvar a dica e uma rota /tips para devolver uma dica aleatória */
 
 class tipsModel {
 
-  constructor(id_tip, tip){ 
-  this.id = id_tip;
+  constructor(id_tip,tip){ 
+  this.id = database.length+1 ;
   this.tip = tip;
   }
 }
